@@ -1,0 +1,374 @@
+html{
+    font-size: 0.625em;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-family: "Rubik[wght]", sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+p{
+    line-height: 1.2rem;
+}
+
+.herosection{
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.purplebackgrounddiv{
+    position: absolute;
+    top: 0%;
+    left: -9rem;
+    height: 85vh;
+    width: 30vw;
+    padding-top: 40px;
+    border-radius: 0 0 17vw 17vw;
+    background-image: linear-gradient(45deg, #8F3AFF,#CE41FF);
+    z-index: -1;
+}
+
+.whitebackgrounddiv{
+    position: absolute;
+    bottom: 0%;
+    right: -9rem;
+    height: 85vh;
+    width: 30vw;
+    border-radius:17vw 17vw 0 0;
+    background-color: hsl(270, 20%, 96%);
+    z-index: -1;
+}
+
+.herowrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem 4rem 4rem;
+}
+
+.heroleftdiv{
+    height: 50.5rem;
+    border-radius: 3.2rem;
+    border: 1rem solid;
+    border-color: white;
+    font-size: 0.8rem;
+    margin-right: 12.5rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F5F3F8;
+    box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.1);
+    flex: 0 0 24.7rem;
+}
+
+.mobileframediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100%
+}
+
+.whitetopbardiv{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    left: 0;
+    margin : 0 auto 0 auto;
+    width: 12.9rem;
+    height: 1.8rem;
+    background-color: white;
+    border-radius: 0 0 1.3rem 1.3rem;
+    z-index: 2;
+}
+
+.mobiletopdiv{
+    width: 92%;
+    height: 3.1rem;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    background-image: linear-gradient(45deg, #8F3AFF, #CE41FF);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 1rem 1rem 1rem;
+}
+
+.mobiletopleftdiv{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+
+.leftarrow{
+    max-width: 100%;
+}
+
+.profilepictureframe{
+    border-radius: 100%;
+    background-color: white;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-left: 0.7rem;
+}
+
+.profilepicture{
+    border-radius: 100%;
+    width: 100%;
+    height:100%
+}
+
+.mobiletopnamediv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.8rem;
+    color: white;
+}
+
+.topname{
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0 0 0.2rem 0;
+}
+
+.namedescription{
+    padding: 0;
+    margin: 0;
+    color: hsl(276, 100%, 81%);
+}
+
+.mobiletoprightdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.menudotdiv{
+    width: 0.2rem;
+    height: 0.2rem;
+    margin: 0 0 0.15rem 0;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.menudotlastdiv{
+    margin: 0;
+}
+
+.mobilemaincontentdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: 92%;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.mobilemaincontentdiv{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.mobilemaincontentdiv::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.mobiletextblock1div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.mobilepurpletextdiv{
+    padding: 0.7rem;
+    background-color: #EFE4F4;
+    border-radius: 1.2rem 1.2rem 1.2rem 0.4rem;
+    margin: 0 auto 0.8rem 0;
+    color: hsl(276, 55%, 52%) ;
+    max-width: 56%;
+}
+
+.mobilepurpletextdiv p{
+    margin: 0;
+}
+
+.mobiletextblock2div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.textblockimagesdiv{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    width: 56%;
+    margin-left: auto;
+    margin-bottom: 0.8rem;
+}
+
+.dogimage{
+    width: 30%;
+    height:100%;
+    border-radius: 1rem;
+}
+
+.whitetextblockdiv{
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 1.2rem 1.2rem 0.4rem 1.2rem;
+    margin: 0 0 0.8rem auto;
+    max-width: 56%;
+    box-shadow: 0.2rem 0.1rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.whitetextblockdiv p{
+    margin: 0;
+}
+
+.purpleofferdiv{
+    margin: 0 auto 0.8rem 0;
+    padding: 1rem 1.5rem 1rem 0.9rem;
+    border-radius: 1.2rem 1.2rem 1.2rem 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 16rem;
+    background-image: linear-gradient(45deg, #CE41FF, #8F3AFF);
+}
+
+.purpleofferleftdiv{
+    width: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.circlediv{
+    border: 0.05rem solid hsl(289, 100%, 72%);
+    border-radius: 100%;
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 0.8rem;
+}
+
+.purpleofferleftdiv {
+    color: white;
+}
+
+.purpleofferleftdiv p{
+    margin: 0
+}
+
+.moneytext{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+.textwrapper{
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    width: auto;
+}
+
+.textmessagediv{
+    border-radius: 100000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 0.4rem 0.4rem 1.9rem ;
+    margin: 1rem;
+    background-color: white;
+}
+
+.typeamessage{
+    color: hsl(206, 6%, 79%);
+}
+
+.sendframediv{
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: hsl(271, 36%, 24%) ;
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herorightdiv{
+    flex: 0 2 43rem;
+}
+
+.herorightdiv h1{
+    color: hsl(271, 36%, 24%);
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+
+.descriptiontext{
+    color: hsl(270, 7%, 64%);
+    font-size: 1.6rem;
+    line-height: 2.9rem;
+}
+
+@media (max-width: 400px){
+    html {
+        font-size: 0.625em;
+    }
+    .herowrapper{
+        flex-direction: column;
+    }
+    .heroleftdiv{
+        margin: 0;
+        flex: 0 0 50.5rem;
+        width: 24.7rem;
+    }
+    .herowrapper{
+        padding: 2rem 2rem;
+        margin-top: 4rem;
+    }
+    .purplebackgrounddiv{
+        left: -50%;
+        width: 100%;
+        border-radius: 0 0 80vw 32vw;
+        height: 49rem;
+    }
+    .whitebackgrounddiv{
+        opacity: 0;
+    }
+    .descriptiontext{
+        text-align: center;
+        line-height: 3.1rem;
+        font-size: 1.8rem;
+    }
+    .herorightdiv h1{
+        text-align: center;
+        margin-top: rem;
+    }
+}
